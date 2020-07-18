@@ -766,21 +766,10 @@ L .Device:C_Small C16
 U 1 1 5F2468D1
 P 8525 1350
 F 0 "C16" H 8617 1396 50  0000 L CNN
-F 1 "C_Small" H 8617 1305 50  0000 L CNN
+F 1 "1uF" H 8617 1305 50  0000 L CNN
 F 2 ".Capacitor:C_0402_1005Metric_L" H 8525 1350 50  0001 C CNN
 F 3 "~" H 8525 1350 50  0001 C CNN
 	1    8525 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L .Device:C_Small C17
-U 1 1 5F246C35
-P 8975 1350
-F 0 "C17" H 9067 1396 50  0000 L CNN
-F 1 "C_Small" H 9067 1305 50  0000 L CNN
-F 2 ".Capacitor:C_0402_1005Metric_L" H 8975 1350 50  0001 C CNN
-F 3 "~" H 8975 1350 50  0001 C CNN
-	1    8975 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -815,7 +804,6 @@ F 3 "" H 8975 1450 50  0001 C CNN
 	1    8975 1450
 	1    0    0    -1  
 $EndComp
-Connection ~ 8975 1450
 $Comp
 L .Device:C_Small C9
 U 1 1 5F25772A
@@ -843,7 +831,7 @@ L .Device:C_Small C11
 U 1 1 5F2587EF
 P 10775 925
 F 0 "C11" H 10867 971 50  0000 L CNN
-F 1 "C_Small" H 10867 880 50  0000 L CNN
+F 1 "1uF" H 10867 880 50  0000 L CNN
 F 2 ".Capacitor:C_0402_1005Metric_L" H 10775 925 50  0001 C CNN
 F 3 "~" H 10775 925 50  0001 C CNN
 	1    10775 925 
@@ -1834,10 +1822,10 @@ F 3 "~" H 2900 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L .Device:C_Small C?
+L .Device:C_Small C12
 U 1 1 5F759211
 P 2575 1125
-F 0 "C?" H 2667 1171 50  0000 L CNN
+F 0 "C12" H 2667 1171 50  0000 L CNN
 F 1 "10uF" H 2667 1080 50  0000 L CNN
 F 2 ".Capacitor:C_0603_1608Metric_L" H 2575 1125 50  0001 C CNN
 F 3 "~" H 2575 1125 50  0001 C CNN
@@ -1847,4 +1835,32 @@ $EndComp
 Wire Wire Line
 	2575 1225 2575 1325
 Connection ~ 2575 1325
+$Comp
+L .Device:C_Small C?
+U 1 1 5F776ABC
+P 8975 1350
+F 0 "C?" H 9067 1396 50  0000 L CNN
+F 1 "10uF" H 9067 1305 50  0000 L CNN
+F 2 ".Capacitor:C_0603_1608Metric_L" H 8975 1350 50  0001 C CNN
+F 3 "~" H 8975 1350 50  0001 C CNN
+	1    8975 1350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8975 1450
+$Comp
+L .Device:C_Small C?
+U 1 1 5F779E53
+P 11100 925
+F 0 "C?" H 11192 971 50  0000 L CNN
+F 1 "10uF" H 11192 880 50  0000 L CNN
+F 2 ".Capacitor:C_0603_1608Metric_L" H 11100 925 50  0001 C CNN
+F 3 "~" H 11100 925 50  0001 C CNN
+	1    11100 925 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11100 1025 10775 1025
+Wire Wire Line
+	11100 825  10775 825 
+Connection ~ 10775 825 
 $EndSCHEMATC

@@ -52,7 +52,7 @@ U 1 1 5F1151F1
 P 5750 1425
 F 0 "J2" H 5830 1417 50  0000 L CNN
 F 1 "Conn_01x02" H 5830 1326 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5750 1425 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical" H 5750 1425 50  0001 C CNN
 F 3 "~" H 5750 1425 50  0001 C CNN
 	1    5750 1425
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5F11569F
 P 5750 1800
 F 0 "J3" H 5830 1842 50  0000 L CNN
 F 1 "Conn_01x03" H 5830 1751 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 5750 1800 50  0001 C CNN
+F 2 "Connector_PinSocket_1.27mm:PinSocket_1x03_P1.27mm_Vertical" H 5750 1800 50  0001 C CNN
 F 3 "~" H 5750 1800 50  0001 C CNN
 	1    5750 1800
 	1    0    0    -1  
@@ -1836,10 +1836,10 @@ Wire Wire Line
 	2575 1225 2575 1325
 Connection ~ 2575 1325
 $Comp
-L .Device:C_Small C?
+L .Device:C_Small C36
 U 1 1 5F776ABC
 P 8975 1350
-F 0 "C?" H 9067 1396 50  0000 L CNN
+F 0 "C36" H 9067 1396 50  0000 L CNN
 F 1 "10uF" H 9067 1305 50  0000 L CNN
 F 2 ".Capacitor:C_0603_1608Metric_L" H 8975 1350 50  0001 C CNN
 F 3 "~" H 8975 1350 50  0001 C CNN
@@ -1848,10 +1848,10 @@ F 3 "~" H 8975 1350 50  0001 C CNN
 $EndComp
 Connection ~ 8975 1450
 $Comp
-L .Device:C_Small C?
+L .Device:C_Small C17
 U 1 1 5F779E53
 P 11100 925
-F 0 "C?" H 11192 971 50  0000 L CNN
+F 0 "C17" H 11192 971 50  0000 L CNN
 F 1 "10uF" H 11192 880 50  0000 L CNN
 F 2 ".Capacitor:C_0603_1608Metric_L" H 11100 925 50  0001 C CNN
 F 3 "~" H 11100 925 50  0001 C CNN
