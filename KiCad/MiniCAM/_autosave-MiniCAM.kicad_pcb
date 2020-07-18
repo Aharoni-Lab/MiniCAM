@@ -70,7 +70,7 @@
     (pad_to_mask_clearance 0.0254)
     (solder_mask_min_width 0.127)
     (aux_axis_origin 0 0)
-    (grid_origin 110.49 38.113)
+    (grid_origin 101.6 50.813)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -240,6 +240,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KICAD_AHARONI_LAB}/Modules/Connector.pretty/SMS-103-01-G-S.stp
+      (offset (xyz -0 -1.27 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
+    )
   )
 
   (module Connector_PinSocket_1.27mm:PinSocket_1x02_P1.27mm_Vertical (layer B.Cu) (tedit 5A19A41F) (tstamp 5F118B55)
@@ -277,10 +282,10 @@
       (net 16 /SDA))
     (pad 1 thru_hole rect (at 0 0 270) (size 1 1) (drill 0.7) (layers *.Cu *.Mask)
       (net 17 /SCL))
-    (model ${KISYS3DMOD}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_1x02_P1.27mm_Vertical.wrl
-      (at (xyz 0 0 0))
+    (model ${KICAD_AHARONI_LAB}/Modules/Connector.pretty/SMS-102-01-G-S.stp
+      (offset (xyz 0 -0.5842000000000001 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
