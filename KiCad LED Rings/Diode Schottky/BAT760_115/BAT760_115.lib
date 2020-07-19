@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# BAT760,115
+#
+DEF BAT760,115 D 0 40 N N 1 L N
+F0 "D" -90 75 50 H V L BNN
+F1 "BAT760,115" -90 -136 50 H V L BNN
+F2 "SOD323(F)" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -50 -50 50 0 N
+P 2 0 0 10 50 0 -50 50 N
+P 2 0 0 10 75 50 50 50 N
+P 2 0 0 10 50 50 50 0 N
+P 2 0 0 10 -50 50 -50 -50 N
+P 2 0 0 10 50 0 50 -50 N
+P 2 0 0 10 75 50 75 40 N
+P 2 0 0 10 50 -50 25 -50 N
+P 2 0 0 10 25 -40 25 -50 N
+X A 2 -100 0 100 R 40 40 0 0 P 
+X K 1 100 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
