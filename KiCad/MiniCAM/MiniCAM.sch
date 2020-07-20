@@ -407,14 +407,14 @@ F 3 "" H 2950 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1900 3925 1600 3925
+	1900 3925 1700 3925
 Wire Wire Line
 	1900 4025 1600 4025
 Wire Wire Line
 	1900 4125 1600 4125
 Wire Wire Line
 	1900 4225 1600 4225
-Text Label 1600 3925 0    50   ~ 0
+Text Label 1325 3925 0    50   ~ 0
 GPO0
 Text Label 1600 4025 0    50   ~ 0
 GPO1
@@ -587,8 +587,6 @@ Wire Wire Line
 	6800 4375 7200 4375
 Wire Wire Line
 	6800 4275 7200 4275
-Wire Wire Line
-	6800 3875 7200 3875
 Wire Wire Line
 	6800 3775 7200 3775
 Text Label 6975 4275 0    50   ~ 0
@@ -1780,7 +1778,7 @@ Wire Wire Line
 	7975 6150 7600 6150
 Wire Wire Line
 	7975 6250 7600 6250
-Text Label 7700 6150 0    50   ~ 0
+Text Label 8225 6150 0    50   ~ 0
 GPO0
 Text Label 7750 6050 0    50   ~ 0
 GPO1
@@ -1863,4 +1861,47 @@ Wire Wire Line
 Wire Wire Line
 	11100 825  10775 825 
 Connection ~ 10775 825 
+Text Label 7800 3875 0    50   ~ 0
+GPO0
+$Comp
+L .Device:R_Small_US R11
+U 1 1 5F170FBC
+P 7625 3875
+F 0 "R11" V 7420 3875 50  0000 C CNN
+F 1 "0" V 7511 3875 50  0000 C CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 7625 3875 50  0001 C CNN
+F 3 "~" H 7625 3875 50  0001 C CNN
+	1    7625 3875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 3875 7525 3875
+Wire Wire Line
+	7725 3875 8000 3875
+$Comp
+L .Device:R_Small_US R12
+U 1 1 5F1A0E57
+P 8075 6150
+F 0 "R12" V 7870 6150 50  0000 C CNN
+F 1 "0" V 7961 6150 50  0000 C CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 8075 6150 50  0001 C CNN
+F 3 "~" H 8075 6150 50  0001 C CNN
+	1    8075 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8175 6150 8350 6150
+$Comp
+L .Device:R_Small_US R?
+U 1 1 5F1C723A
+P 1600 3925
+F 0 "R?" V 1395 3925 50  0000 C CNN
+F 1 "0" V 1486 3925 50  0000 C CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 1600 3925 50  0001 C CNN
+F 3 "~" H 1600 3925 50  0001 C CNN
+	1    1600 3925
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1325 3925 1500 3925
 $EndSCHEMATC
