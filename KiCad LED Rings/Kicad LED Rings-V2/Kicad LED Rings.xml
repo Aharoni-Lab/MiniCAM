@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
-    <date>2020/7/29 22:34:18</date>
+    <source>C:\Users\Changliang Guo\Desktop\GitHub\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
+    <date>2020/7/29 22:57:18</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -22,6 +22,9 @@
     <comp ref="U1">
       <value>LM3509SD_NOPB</value>
       <footprint>footprints:LM3509SD&amp;slash_NOPB</footprint>
+      <fields>
+        <field name="PartNo.">LM3509SD_NOPB</field>
+      </fields>
       <libsource lib="Kicad-LED-Rings-rescue" part="LM3509SD_NOPB-2020-04-05_20-57-04" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8A688C</tstamp>
@@ -436,7 +439,7 @@
   </libparts>
   <libraries>
     <library logical="Kicad-LED-Rings-rescue">
-      <uri>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
+      <uri>C:\Users\Changliang Guo\Desktop\GitHub\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
