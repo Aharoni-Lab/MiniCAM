@@ -1,0 +1,36 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Part Number,Note,Size,LCSC Part #
+1,"Unpolarized capacitor, small symbol",C_Small,C4 C5 C6 C7 C8 C9 C10 C14 C15 C19 C22 C24 C27 C30 C32,0.1uF,C_0402_1005Metric_L,15,~,GCM155R71C104KA55J,,,
+2,"Unpolarized capacitor, small symbol",C_Small,C18 C21 C26 C29 C31 C34,10nF,C_0402_1005Metric_L,6,~,GCM155R71E103KA37D,,,
+3,"Unpolarized capacitor, small symbol",C_Small,C12 C13 C17 C36,10uF,C_0603_1608Metric_L,4,~,GRM188R61A106KE69J,,,
+4,"Unpolarized capacitor, small symbol",C_Small,C1 C2 C3 C11 C16 C33 C35,1uF,C_0402_1005Metric_L,7,~,GRT155R61C105KE01D,,,C363938
+5,"Unpolarized capacitor, small symbol",C_Small,C20 C23 C28,4.7uF,C_0402_1005Metric_L,3,~,CC0402MRX5R6BB475,,,
+6,"Unpolarized capacitor, small symbol",C_Small,C25,47nF,C_0402_1005Metric_L,1,~,GRM155R71A473KA01D,,,
+7,"Light emitting diode, small symbol, filled shape",LED_Small_ALT,D1,LED_Small_ALT,LED_SC80X160X65L40L,1,~,LTST-C190KRKT,,,C2286
+11,CONN SMA JACK R/A 50 OHM PCB,SMA-J-P-H-RA-TH1,J1,SMA-J-P-H-RA-TH1,SMA_Amphenol_132134-10_Vertical,1,http://suddendocs.samtec.com/catalog_english/sma.pdf,CONSMA001-SMD-G-T,,,
+12,FIXED IND 47UH 500MA 900 MOHM,ADL3225V-470MT-TL000,L2,ADL3225V-470MT-TL000,L_1210_3225Metric_L,1,https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_decoupling_adl3225v_en.pdf,ADL3225V-470MT-TL000,47uH,1210, C435260
+13,FERRITE BEAD 470 OHM 0603 1LN,BLM18PG471SN1D,L1 L3 L4 L5,BLM18PG471SN1D,L_0603_1608Metric_L,4,https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf,BLM18PG471SN1D,470 Ohms @ 100MHz,603,C97853
+14,"Resistor, small US symbol",R_Small_US,R11 R12 R13,0,R_0402_1005Metric_ERJ_L,3,~,ERJ-2GE0R00X,,,
+15,"Resistor, small US symbol",R_Small_US,R9,100K,R_0402_1005Metric_ERJ_L,1,~,ERJ-2RKF1003X,,,
+16,"Resistor, small US symbol",R_Small_US,R7 R8,10K,R_0402_1005Metric_ERJ_L,2,~,ERJ-2RKF1002X,,,
+17,"Resistor, small US symbol",R_Small_US,R4,1K,R_0402_1005Metric_ERJ_L,1,~,ERJ-2GEJ102X,,,
+18,"Resistor, small US symbol",R_Small_US,R1 R5 R6,2K,R_0402_1005Metric_ERJ_L,3,~,ERJ-2RKF2001X,,,
+19,"Resistor, small US symbol",R_Small_US,R3,50,R_0402_1005Metric_ERJ_L,1,~,ERJ-2RKF49R9X,,,C441726
+20,"Resistor, small US symbol",R_Small_US,R2,500,R_0402_1005Metric_ERJ_L,1,~,ERJ-2RKF4990X,,,C137970
+21,IC SERIALIZER FPD-LINK 32WQFN,DS90UB933-Q1,U2,DS90UB933-Q1,QFN_33_P50_500X500X80L40X24T310L,1,http://www.ti.com/lit/ds/symlink/ds90ub933-q1.pdf,DS90UB913ATRTVTQ1,,,
+23,Voltage Regulator - Dual 300mA fixed,NCV8154,U1,NCV8154MW180280TBG,DFN10_3x3_11P50_300X300X100L40X24T250X180N,1,https://www.onsemi.com/pub/Collateral/NCV8154-D.PDF,NCV8154MW180280TBG,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Component Groups:,25,,,,,,,,,,
+Component Count:,63,,,,,,,,,,
+Fitted Components:,62,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,
+Total components:,62,,,,,,,,,,
+Schematic Version:,,,,,,,,,,,
+Schematic Date:,,,,,,,,,,,
+PCB Variant:,default,,,,,,,,,,
+BoM Date:,7/21/2020 23:12,,,,,,,,,,
+Schematic Source:,C:\Users\DBAharoni\Documents\Projects\MiniCAM\KiCad\MiniCAM\MiniCAM.sch,,,,,,,,,,
+KiCad Version:,Eeschema (5.1.5)-3,,,,,,,,,,
