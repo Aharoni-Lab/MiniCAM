@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MiniCAM-rescue)(type Legacy)(uri ${KIPRJMOD}/MiniCAM-rescue.lib)(options "")(descr ""))
+)

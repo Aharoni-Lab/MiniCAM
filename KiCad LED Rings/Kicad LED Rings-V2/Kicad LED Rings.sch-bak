@@ -43,9 +43,9 @@ U 1 1 5E8B056A
 P 6420 2450
 F 0 "C2" V 6191 2450 50  0000 C CNN
 F 1 "10uF" V 6282 2450 50  0000 C CNN
-F 2 ".Capacitor_SMD:C_0603_1608Metric" H 6458 2300 50  0001 C CNN
-F 3 "~" H 6420 2450 50  0001 C CNN
-F 4 "GRM188R61E106MA73J" V 6420 2450 50  0001 C CNN "PartNo."
+F 2 "Capacitor:C_1210_3225Metric_L" H 6458 2300 50  0001 C CNN
+F 3 "https://www.digikey.in/product-detail/en/kemet/C1210C106K5RACTU/399-11629-2-ND/4918882" H 6420 2450 50  0001 C CNN
+F 4 "C1210C106K5RACTU" V 6420 2450 50  0001 C CNN "PartNo."
 	1    6420 2450
 	0    1    1    0   
 $EndComp
@@ -54,10 +54,10 @@ L Kicad-LED-Rings-rescue:R_Small-Device R2
 U 1 1 5E8B1987
 P 1490 2610
 F 0 "R2" H 1558 2656 50  0000 L CNN
-F 1 "10K" H 1558 2565 50  0000 L CNN
+F 1 "9.5k" H 1558 2565 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1490 2610 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126" H 1490 2610 50  0001 C CNN
-F 4 "ERA-2AED103X" H 1550 2520 50  0001 C CNN "PartNo."
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB123X/P12KDCCT-ND/1706209" H 1490 2610 50  0001 C CNN
+F 4 "ERA-2AEB9531X" H 1550 2520 50  0001 C CNN "PartNo."
 	1    1490 2610
 	1    0    0    -1  
 $EndComp
@@ -69,7 +69,7 @@ F 0 "R3" V 1970 2350 50  0000 L CNN
 F 1 "9.5k" V 1900 2190 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 1820 2250 50  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB123X/P12KDCCT-ND/1706209" H 1820 2250 50  0001 C CNN
-F 4 "ERA-2AEB9531X" V 1770 2270 50  0000 C CNN "PartNo."
+F 4 "ERA-2AEB9531X" V 1770 2270 50  0001 C CNN "PartNo."
 	1    1820 2250
 	0    -1   -1   0   
 $EndComp
@@ -78,10 +78,10 @@ L Kicad-LED-Rings-rescue:R_Small-Device R1
 U 1 1 5E8B20E8
 P 6680 4090
 F 0 "R1" H 6900 4100 50  0000 L CNN
-F 1 "10K" H 6740 4170 50  0000 L CNN
+F 1 "3K" H 6740 4170 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 6680 4090 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126" H 6680 4090 50  0001 C CNN
-F 4 "ERA-2AED103X" H 6680 4090 50  0001 C CNN "PartNo."
+F 3 "https://www.digikey.in/product-detail/en/panasonic-electronic-components/ERA-2AEB302X/P3-0KDCTR-ND/1706016" H 6680 4090 50  0001 C CNN
+F 4 "ERA-2AEB302X" H 6680 4090 50  0001 C CNN "PartNo."
 	1    6680 4090
 	-1   0    0    1   
 $EndComp
@@ -433,10 +433,10 @@ L Kicad-LED-Rings-rescue:R_Small-Device R4
 U 1 1 5E95957D
 P 7040 4090
 F 0 "R4" H 6840 4070 50  0000 L CNN
-F 1 "10K" H 6830 4160 50  0000 L CNN
+F 1 "3K" H 6830 4160 50  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 7040 4090 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126" H 7040 4090 50  0001 C CNN
-F 4 "ERA-2AED103X" H 7040 4090 50  0001 C CNN "PartNo."
+F 3 "https://www.digikey.in/product-detail/en/panasonic-electronic-components/ERA-2AEB302X/P3-0KDCTR-ND/1706016" H 7040 4090 50  0001 C CNN
+F 4 "ERA-2AEB302X" H 7040 4090 50  0001 C CNN "PartNo."
 	1    7040 4090
 	-1   0    0    1   
 $EndComp

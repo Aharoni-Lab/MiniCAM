@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Changliang Guo\Desktop\GitHub\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
-    <date>2020/7/29 22:57:18</date>
+    <source>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
+    <date>2020/7/30 11:34:35</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -31,21 +31,21 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>.Capacitor_SMD:C_0603_1608Metric</footprint>
-      <datasheet>~</datasheet>
+      <footprint>Capacitor:C_1210_3225Metric_L</footprint>
+      <datasheet>https://www.digikey.in/product-detail/en/kemet/C1210C106K5RACTU/399-11629-2-ND/4918882</datasheet>
       <fields>
-        <field name="PartNo.">GRM188R61E106MA73J</field>
+        <field name="PartNo.">C1210C106K5RACTU</field>
       </fields>
       <libsource lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B056A</tstamp>
     </comp>
     <comp ref="R2">
-      <value>10K</value>
+      <value>9.5k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126</datasheet>
+      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB123X/P12KDCCT-ND/1706209</datasheet>
       <fields>
-        <field name="PartNo.">ERA-2AED103X</field>
+        <field name="PartNo.">ERA-2AEB9531X</field>
       </fields>
       <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,11 +63,11 @@
       <tstamp>5E8B1D0A</tstamp>
     </comp>
     <comp ref="R1">
-      <value>10K</value>
+      <value>3K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126</datasheet>
+      <datasheet>https://www.digikey.in/product-detail/en/panasonic-electronic-components/ERA-2AEB302X/P3-0KDCTR-ND/1706016</datasheet>
       <fields>
-        <field name="PartNo.">ERA-2AED103X</field>
+        <field name="PartNo.">ERA-2AEB302X</field>
       </fields>
       <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -233,11 +233,11 @@
       <tstamp>5E8C7DAA</tstamp>
     </comp>
     <comp ref="R4">
-      <value>10K</value>
+      <value>3K</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126</datasheet>
+      <datasheet>https://www.digikey.in/product-detail/en/panasonic-electronic-components/ERA-2AEB302X/P3-0KDCTR-ND/1706016</datasheet>
       <fields>
-        <field name="PartNo.">ERA-2AED103X</field>
+        <field name="PartNo.">ERA-2AEB302X</field>
       </fields>
       <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -439,7 +439,7 @@
   </libparts>
   <libraries>
     <library logical="Kicad-LED-Rings-rescue">
-      <uri>C:\Users\Changliang Guo\Desktop\GitHub\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
+      <uri>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
