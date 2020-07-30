@@ -8,7 +8,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 7,,ADL3225V-470MT-TL000-.Inductor-Kicad-LED-Rings-rescue,L1,10uH,VLF4012AT-100MR79,1,https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_decoupling_adl3225v_en.pdf,VLF4012AT-100MR79
 8,,R_Small-Device,R3,9.5k,R_0402_1005Metric,1,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB123X/P12KDCCT-ND/1706209,ERA-2AEB9531X
 9,,R_Small-Device,R1 R2 R4,10K,R_0402_1005Metric,3,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AED103X/P10KDETR-ND/1706126,ERA-2AED103X
-10,,LM3509SD_NOPB-2020-04-05_20-57-04,U1,LM3509SD_NOPB,LM3509SD&slash_NOPB,1,,
+10,,LM3509SD_NOPB-2020-04-05_20-57-04,U1,LM3509SD_NOPB,LM3509SD&slash_NOPB,1,,LM3509SD_NOPB
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
