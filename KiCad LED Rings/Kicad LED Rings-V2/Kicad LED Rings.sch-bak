@@ -42,10 +42,10 @@ L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue C2
 U 1 1 5E8B056A
 P 6420 2450
 F 0 "C2" V 6191 2450 50  0000 C CNN
-F 1 "10uF" V 6282 2450 50  0000 C CNN
-F 2 "Capacitor:C_1210_3225Metric_L" H 6458 2300 50  0001 C CNN
-F 3 "https://www.digikey.in/product-detail/en/kemet/C1210C106K5RACTU/399-11629-2-ND/4918882" H 6420 2450 50  0001 C CNN
-F 4 "C1210C106K5RACTU" V 6420 2450 50  0001 C CNN "PartNo."
+F 1 "2.2uF" V 6282 2450 50  0000 C CNN
+F 2 ".Capacitor:C_0805_2012Metric_L" H 6458 2300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1E225M125AC/445-7630-2-ND/2733065" H 6420 2450 50  0001 C CNN
+F 4 "C2012X5R1E225M125AC" V 6420 2450 50  0001 C CNN "PartNo."
 	1    6420 2450
 	0    1    1    0   
 $EndComp
@@ -86,16 +86,16 @@ F 4 "ERA-2AEB302X" H 6680 4090 50  0001 C CNN "PartNo."
 	-1   0    0    1   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:ADL3225V-470MT-TL000-.Inductor-Kicad-LED-Rings-rescue L1
+L 2020-07-30_23-38-29:NRS4012T100MDGJ L1
 U 1 1 5E8B36F1
-P 5700 2550
-F 0 "L1" V 5560 2540 50  0000 C CNN
-F 1 "10uH" V 5650 2450 50  0000 L CNN
-F 2 "footprints:VLF4012AT-100MR79" H 5630 2490 50  0001 C CNN
-F 3 "https://product.tdk.com/info/en/catalog/datasheets/inductor_automotive_decoupling_adl3225v_en.pdf" H 5700 2550 50  0001 C CNN
-F 4 "VLF4012AT-100MR79" V 5640 2550 50  0001 C CNN "PartNo."
-	1    5700 2550
-	0    -1   -1   0   
+P 5450 2650
+F 0 "L1" H 5650 2600 50  0000 C CNN
+F 1 "10uH" H 5700 2600 50  0000 L CNN
+F 2 "footprints:NRS4012T100MDGJ" H 5380 2590 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/taiyo-yuden/NRS4012T100MDGJ/587-2878-1-ND/2648998" H 5450 2650 50  0001 C CNN
+F 4 "NRS4012T100MDGJ" V 5390 2650 50  0001 C CNN "PartNo."
+	1    5450 2650
+	1    0    0    -1  
 $EndComp
 $Comp
 L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue C1
@@ -116,16 +116,14 @@ Wire Wire Line
 $Comp
 L Kicad-LED-Rings-rescue:+5V-power #PWR04
 U 1 1 5E8B7DFD
-P 5970 2550
-F 0 "#PWR04" H 5970 2400 50  0001 C CNN
-F 1 "+5V" V 5985 2678 50  0000 L CNN
-F 2 "" H 5970 2550 50  0001 C CNN
-F 3 "" H 5970 2550 50  0001 C CNN
-	1    5970 2550
+P 6050 2650
+F 0 "#PWR04" H 6050 2500 50  0001 C CNN
+F 1 "+5V" V 6100 2550 50  0000 L CNN
+F 2 "" H 6050 2650 50  0001 C CNN
+F 3 "" H 6050 2650 50  0001 C CNN
+	1    6050 2650
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5800 2550 5970 2550
 Wire Wire Line
 	5430 2450 6320 2450
 $Comp
@@ -217,10 +215,7 @@ F 4 "BAT760,115" H 5690 3070 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 3070 5450 2550
-Connection ~ 5450 2550
-Wire Wire Line
-	5450 2550 5600 2550
+	5450 3070 5450 2650
 Text GLabel 6130 3070 2    50   Input ~ 0
 OVP
 $Comp
@@ -586,4 +581,7 @@ Wire Wire Line
 	4410 1390 4450 1390
 Wire Wire Line
 	4650 1390 4720 1390
+Connection ~ 5450 2650
+Wire Wire Line
+	5450 2650 5450 2550
 $EndSCHEMATC
