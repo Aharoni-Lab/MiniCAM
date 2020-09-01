@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
-    <date>2020/7/30 17:36:10</date>
-    <tool>Eeschema (5.1.4)-1</tool>
+    <source>C:\Users\dbaha\Documents\Projects\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2\Kicad LED Rings.sch</source>
+    <date>7/31/2020 9:16:06 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
+        <title>MiniCAM LED Ring</title>
+        <company>Aharoni Lab</company>
+        <rev>v0.2</rev>
+        <date>2020-07-31</date>
         <source>Kicad LED Rings.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,16 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>LM3509SD_NOPB</value>
-      <footprint>footprints:LM3509SD&amp;slash_NOPB</footprint>
-      <fields>
-        <field name="PartNo.">LM3509SD_NOPB</field>
-      </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LM3509SD_NOPB-2020-04-05_20-57-04" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8A688C</tstamp>
-    </comp>
     <comp ref="C2">
       <value>2.2uF</value>
       <footprint>.Capacitor:C_0805_2012Metric_L</footprint>
@@ -36,7 +26,7 @@
       <fields>
         <field name="PartNo.">C2012X5R1E225M125AC</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B056A</tstamp>
     </comp>
@@ -47,7 +37,7 @@
       <fields>
         <field name="PartNo.">ERA-2AEB9531X</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B1987</tstamp>
     </comp>
@@ -58,7 +48,7 @@
       <fields>
         <field name="PartNo.">ERA-2AEB9531X</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B1D0A</tstamp>
     </comp>
@@ -69,7 +59,7 @@
       <fields>
         <field name="PartNo.">ERA-2AEB302X</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B20E8</tstamp>
     </comp>
@@ -80,7 +70,7 @@
       <fields>
         <field name="PartNo.">NRS4012T100MDGJ</field>
       </fields>
-      <libsource lib="2020-07-30_23-38-29" part="NRS4012T100MDGJ" description=""/>
+      <libsource lib="" part="NRS4012T100MDGJ-2020-07-30_23-38-29" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B36F1</tstamp>
     </comp>
@@ -91,62 +81,62 @@
       <fields>
         <field name="PartNo.">GRT155C80J105ME01D</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B4731</tstamp>
     </comp>
-    <comp ref="D11">
+    <comp ref="D17">
       <value>D_Schottky</value>
       <footprint>BAT760_115:SOD323(F)</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAT760115/1727-4825-1-ND/2531312</datasheet>
       <fields>
         <field name="PartNo.">BAT760,115</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="BAT760,115-BAT760_115" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="BAT760,115-BAT760_115-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8AEDAE</tstamp>
     </comp>
-    <comp ref="D2">
+    <comp ref="D16">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B124A</tstamp>
     </comp>
-    <comp ref="D4">
+    <comp ref="D14">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B1A2E</tstamp>
     </comp>
-    <comp ref="D6">
+    <comp ref="D13">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B2164</tstamp>
     </comp>
-    <comp ref="D8">
+    <comp ref="D11">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B273B</tstamp>
     </comp>
@@ -157,20 +147,9 @@
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B2DC2</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>LED_Small_ALT</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
-      <fields>
-        <field name="PartNo.">LTST-C190KRKT</field>
-      </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8B5CB2</tstamp>
     </comp>
     <comp ref="D7">
       <value>LED_Small_ALT</value>
@@ -179,18 +158,29 @@
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E8B5CA8</tstamp>
+      <tstamp>5E8B5CB2</tstamp>
     </comp>
-    <comp ref="D5">
+    <comp ref="D6">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8B5CA8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
+      <fields>
+        <field name="PartNo.">LTST-C190KRKT</field>
+      </fields>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B5C9E</tstamp>
     </comp>
@@ -201,7 +191,7 @@
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B5C94</tstamp>
     </comp>
@@ -212,7 +202,7 @@
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B5C8A</tstamp>
     </comp>
@@ -220,7 +210,7 @@
       <value>Conn_01x02_Female</value>
       <footprint>Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Kicad-LED-Rings-rescue" part="Conn_01x03_Female-Connector" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8C7898</tstamp>
     </comp>
@@ -228,7 +218,7 @@
       <value>Conn_01x02_Male</value>
       <footprint>Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical</footprint>
       <datasheet>~</datasheet>
-      <libsource lib="Kicad-LED-Rings-rescue" part="Conn_01x02_Male-Connector" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8C7DAA</tstamp>
     </comp>
@@ -239,53 +229,42 @@
       <fields>
         <field name="PartNo.">ERA-2AEB302X</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="R_Small-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E95957D</tstamp>
     </comp>
-    <comp ref="D12">
+    <comp ref="D2">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F10EE3C</tstamp>
     </comp>
-    <comp ref="D14">
+    <comp ref="D5">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F10F69F</tstamp>
     </comp>
-    <comp ref="D16">
+    <comp ref="D8">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F110CD4</tstamp>
-    </comp>
-    <comp ref="D13">
-      <value>LED_Small_ALT</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
-      <fields>
-        <field name="PartNo.">LTST-C190KRKT</field>
-      </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1112DB</tstamp>
     </comp>
     <comp ref="D15">
       <value>LED_Small_ALT</value>
@@ -294,30 +273,51 @@
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1120C3</tstamp>
+      <tstamp>5F1112DB</tstamp>
     </comp>
-    <comp ref="D17">
+    <comp ref="D12">
       <value>LED_Small_ALT</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
       <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
       <fields>
         <field name="PartNo.">LTST-C190KRKT</field>
       </fields>
-      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device" description=""/>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1120C3</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>LED_Small_ALT</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816</datasheet>
+      <fields>
+        <field name="PartNo.">LTST-C190KRKT</field>
+      </fields>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F11304A</tstamp>
     </comp>
+    <comp ref="U1">
+      <value>LM3509SD_NOPB</value>
+      <footprint>footprints:LM3509SD&amp;slash_NOPB</footprint>
+      <fields>
+        <field name="PartNo.">LM3509SD_NOPB</field>
+      </fields>
+      <libsource lib="Kicad-LED-Rings-rescue" part="LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8A688C</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="2020-07-30_23-38-29" part="NRS4012T100MDGJ">
+    <libpart lib="" part="Kicad-LED-Rings-rescue_NRS4012T100MDGJ-2020-07-30_23-38-29">
       <footprints>
         <fp>IND_TAIYO_NRS4012_TAY</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">NRS4012T100MDGJ</field>
+        <field name="Value">Kicad-LED-Rings-rescue_NRS4012T100MDGJ-2020-07-30_23-38-29</field>
         <field name="Footprint">IND_TAIYO_NRS4012_TAY</field>
       </fields>
       <pins>
@@ -325,10 +325,10 @@
         <pin num="2" name="2" type="unspc"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="BAT760,115-BAT760_115">
+    <libpart lib="Kicad-LED-Rings-rescue" part="BAT760,115-BAT760_115-Kicad-LED-Rings-rescue">
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">BAT760,115-BAT760_115</field>
+        <field name="Value">BAT760,115-BAT760_115-Kicad-LED-Rings-rescue</field>
         <field name="Footprint">SOD323(F)</field>
       </fields>
       <pins>
@@ -336,26 +336,26 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="Conn_01x02_Male-Connector">
+    <libpart lib="Kicad-LED-Rings-rescue" part="Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x02_Male-Connector</field>
+        <field name="Value">Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="Conn_01x03_Female-Connector">
+    <libpart lib="Kicad-LED-Rings-rescue" part="Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x03_Female-Connector</field>
+        <field name="Value">Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -363,13 +363,13 @@
         <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue">
+    <libpart lib="Kicad-LED-Rings-rescue" part="GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>C_0201*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue</field>
+        <field name="Value">GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue</field>
         <field name="Footprint">.Capacitor:C_0201_0603Metric_L</field>
         <field name="Note">1uF</field>
         <field name="Size">0201</field>
@@ -379,7 +379,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device">
+    <libpart lib="Kicad-LED-Rings-rescue" part="LED_Small_ALT-Device-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>LED*</fp>
         <fp>LED_SMD:*</fp>
@@ -387,14 +387,14 @@
       </footprints>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">LED_Small_ALT-Device</field>
+        <field name="Value">LED_Small_ALT-Device-Kicad-LED-Rings-rescue</field>
       </fields>
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="LM3509SD_NOPB-2020-04-05_20-57-04">
+    <libpart lib="Kicad-LED-Rings-rescue" part="LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>SDA10A</fp>
         <fp>SDA10A-M</fp>
@@ -402,7 +402,7 @@
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LM3509SD_NOPB-2020-04-05_20-57-04</field>
+        <field name="Value">LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue</field>
         <field name="Footprint">SDA10A</field>
       </fields>
       <pins>
@@ -419,13 +419,13 @@
         <pin num="11" name="DAP_GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Kicad-LED-Rings-rescue" part="R_Small-Device">
+    <libpart lib="Kicad-LED-Rings-rescue" part="R_Small-Device-Kicad-LED-Rings-rescue">
       <footprints>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R_Small-Device</field>
+        <field name="Value">R_Small-Device-Kicad-LED-Rings-rescue</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -434,127 +434,124 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="2020-07-30_23-38-29">
-      <uri>L:/Behavior Camera/KiCad LED Rings/10uH Inductor/NRS4012T100MDGJ/ul_NRS4012T100MDGJ/KiCAD/2020-07-30_23-38-29/2020-07-30_23-38-29.lib</uri>
-    </library>
     <library logical="Kicad-LED-Rings-rescue">
-      <uri>L:\Behavior Camera\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
+      <uri>C:\Users\dbaha\Documents\Projects\MiniCAM\KiCad LED Rings\Kicad LED Rings-V2/Kicad LED Rings-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="+5V">
+    <net code="1" name="+2V8">
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="2" name="Net-(D1-Pad2)">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D5-Pad2)">
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D15-Pad1)">
+      <node ref="D15" pin="1"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="8" name="SCL">
+      <node ref="U1" pin="10"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="10" name="+5V">
       <node ref="L1" pin="1"/>
       <node ref="C1" pin="2"/>
       <node ref="U1" pin="8"/>
       <node ref="J1" pin="2"/>
     </net>
-    <net code="2" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="D12" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1"/>
-      <node ref="U1" pin="2"/>
-    </net>
-    <net code="4" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1"/>
-      <node ref="U1" pin="1"/>
-    </net>
-    <net code="5" name="GND">
-      <node ref="R3" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="11"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="6" name="SDA">
-      <node ref="U1" pin="9"/>
-      <node ref="J2" pin="1"/>
-      <node ref="R1" pin="1"/>
-    </net>
-    <net code="7" name="SCL">
-      <node ref="U1" pin="10"/>
-      <node ref="R4" pin="1"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="8" name="Net-(D13-Pad2)">
-      <node ref="D13" pin="2"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="9" name="Net-(D12-Pad2)">
-      <node ref="D3" pin="1"/>
-      <node ref="D12" pin="2"/>
-    </net>
-    <net code="10" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="D5" pin="1"/>
-    </net>
     <net code="11" name="Net-(D14-Pad1)">
-      <node ref="D5" pin="2"/>
       <node ref="D14" pin="1"/>
-    </net>
-    <net code="12" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
-      <node ref="D7" pin="1"/>
-    </net>
-    <net code="13" name="Net-(D7-Pad2)">
-      <node ref="D9" pin="1"/>
-      <node ref="D7" pin="2"/>
-    </net>
-    <net code="14" name="Net-(D16-Pad1)">
-      <node ref="D9" pin="2"/>
-      <node ref="D16" pin="1"/>
-    </net>
-    <net code="15" name="Net-(D13-Pad1)">
-      <node ref="D2" pin="2"/>
-      <node ref="D13" pin="1"/>
-    </net>
-    <net code="16" name="OVP">
-      <node ref="U1" pin="7"/>
-      <node ref="C2" pin="2"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D16" pin="2"/>
-      <node ref="D17" pin="2"/>
-    </net>
-    <net code="17" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="D6" pin="1"/>
-    </net>
-    <net code="18" name="Net-(D15-Pad1)">
-      <node ref="D15" pin="1"/>
-      <node ref="D6" pin="2"/>
-    </net>
-    <net code="19" name="Net-(D15-Pad2)">
-      <node ref="D8" pin="1"/>
       <node ref="D15" pin="2"/>
     </net>
-    <net code="20" name="Net-(D10-Pad1)">
+    <net code="12" name="OVP">
       <node ref="D8" pin="2"/>
-      <node ref="D10" pin="1"/>
-    </net>
-    <net code="21" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2"/>
       <node ref="D17" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D9" pin="2"/>
+      <node ref="U1" pin="7"/>
     </net>
-    <net code="22" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
+    <net code="13" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D10-Pad2)">
+      <node ref="D9" pin="1"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
       <node ref="L1" pin="2"/>
       <node ref="U1" pin="6"/>
     </net>
-    <net code="23" name="+2V8">
-      <node ref="R1" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="R2" pin="1"/>
+    <net code="17" name="Net-(D16-Pad1)">
+      <node ref="D16" pin="1"/>
+      <node ref="U1" pin="2"/>
     </net>
-    <net code="24" name="Net-(R2-Pad2)">
+    <net code="18" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D12-Pad1)">
+      <node ref="D13" pin="2"/>
+      <node ref="D12" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D11-Pad1)">
+      <node ref="D11" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="22" name="SDA">
+      <node ref="R1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="23" name="Net-(D13-Pad1)">
+      <node ref="D13" pin="1"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D10-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="25" name="Net-(R2-Pad2)">
       <node ref="U1" pin="5"/>
       <node ref="R2" pin="2"/>
-    </net>
-    <net code="25" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="3"/>
     </net>
   </nets>
 </export>

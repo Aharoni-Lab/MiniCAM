@@ -4,17 +4,17 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "MiniCAM LED Ring"
+Date "2020-07-31"
+Rev "v0.2"
+Comp "Aharoni Lab"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Kicad-LED-Rings-rescue:+5V-power #PWR03
+L Kicad-LED-Rings-rescue:+5V-power-Kicad-LED-Rings-rescue #PWR03
 U 1 1 5E8AAF06
 P 5970 2350
 F 0 "#PWR03" H 5970 2200 50  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 5970 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue C2
+L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue C2
 U 1 1 5E8B056A
 P 6420 2450
 F 0 "C2" V 6191 2450 50  0000 C CNN
@@ -37,7 +37,7 @@ F 4 "C2012X5R1E225M125AC" V 6420 2450 50  0001 C CNN "PartNo."
 	0    1    1    0   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:R_Small-Device R2
+L Kicad-LED-Rings-rescue:R_Small-Device-Kicad-LED-Rings-rescue R2
 U 1 1 5E8B1987
 P 1490 2610
 F 0 "R2" H 1558 2656 50  0000 L CNN
@@ -49,7 +49,7 @@ F 4 "ERA-2AEB9531X" H 1550 2520 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:R_Small-Device R3
+L Kicad-LED-Rings-rescue:R_Small-Device-Kicad-LED-Rings-rescue R3
 U 1 1 5E8B1D0A
 P 1820 2250
 F 0 "R3" V 1970 2350 50  0000 L CNN
@@ -61,7 +61,7 @@ F 4 "ERA-2AEB9531X" V 1770 2270 50  0001 C CNN "PartNo."
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:R_Small-Device R1
+L Kicad-LED-Rings-rescue:R_Small-Device-Kicad-LED-Rings-rescue R1
 U 1 1 5E8B20E8
 P 6680 4090
 F 0 "R1" H 6900 4100 50  0000 L CNN
@@ -85,7 +85,7 @@ F 4 "NRS4012T100MDGJ" V 5390 2650 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue C1
+L Kicad-LED-Rings-rescue:GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue C1
 U 1 1 5E8B4731
 P 5860 2170
 F 0 "C1" H 5768 2124 50  0000 R CNN
@@ -101,7 +101,7 @@ Wire Wire Line
 Wire Wire Line
 	5430 2550 5450 2550
 $Comp
-L Kicad-LED-Rings-rescue:+5V-power #PWR04
+L Kicad-LED-Rings-rescue:+5V-power-Kicad-LED-Rings-rescue #PWR04
 U 1 1 5E8B7DFD
 P 6050 2650
 F 0 "#PWR04" H 6050 2500 50  0001 C CNN
@@ -114,7 +114,7 @@ $EndComp
 Wire Wire Line
 	5430 2450 6320 2450
 $Comp
-L Kicad-LED-Rings-rescue:GND-power #PWR06
+L Kicad-LED-Rings-rescue:GND-power-Kicad-LED-Rings-rescue #PWR06
 U 1 1 5E8B9C78
 P 6670 2600
 F 0 "#PWR06" H 6670 2350 50  0001 C CNN
@@ -134,7 +134,7 @@ Connection ~ 5860 2350
 Wire Wire Line
 	5860 2350 5970 2350
 $Comp
-L Kicad-LED-Rings-rescue:GND-power #PWR05
+L Kicad-LED-Rings-rescue:GND-power-Kicad-LED-Rings-rescue #PWR05
 U 1 1 5E8BCC8C
 P 6230 2070
 F 0 "#PWR05" H 6230 1820 50  0001 C CNN
@@ -147,7 +147,7 @@ $EndComp
 Wire Wire Line
 	5860 2070 6230 2070
 $Comp
-L Kicad-LED-Rings-rescue:GND-power #PWR02
+L Kicad-LED-Rings-rescue:GND-power-Kicad-LED-Rings-rescue #PWR02
 U 1 1 5E8BDC5C
 P 5430 1910
 F 0 "#PWR02" H 5430 1660 50  0001 C CNN
@@ -162,7 +162,7 @@ Wire Wire Line
 Wire Wire Line
 	2030 2250 1920 2250
 $Comp
-L Kicad-LED-Rings-rescue:GND-power #PWR01
+L Kicad-LED-Rings-rescue:GND-power-Kicad-LED-Rings-rescue #PWR01
 U 1 1 5E8A8FD0
 P 1470 2250
 F 0 "#PWR01" H 1470 2000 50  0001 C CNN
@@ -190,7 +190,7 @@ SDA
 Wire Wire Line
 	6680 4190 6680 4380
 $Comp
-L Kicad-LED-Rings-rescue:BAT760,115-BAT760_115 D17
+L Kicad-LED-Rings-rescue:BAT760,115-BAT760_115-Kicad-LED-Rings-rescue D17
 U 1 1 5E8AEDAE
 P 5690 3070
 F 0 "D17" H 5690 3287 50  0000 C CNN
@@ -206,7 +206,7 @@ Wire Wire Line
 Text GLabel 6130 3070 2    50   Input ~ 0
 OVP
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D16
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D16
 U 1 1 5E8B124A
 P 2790 1390
 F 0 "D16" H 2790 1625 50  0000 C CNN
@@ -218,7 +218,7 @@ F 4 "LTST-C190KRKT" H 2800 1280 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D14
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D14
 U 1 1 5E8B1A2E
 P 3280 1390
 F 0 "D14" H 3280 1625 50  0000 C CNN
@@ -230,7 +230,7 @@ F 4 "LTST-C190KRKT" H 3370 1230 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D13
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D13
 U 1 1 5E8B2164
 P 3550 1390
 F 0 "D13" H 3550 1625 50  0000 C CNN
@@ -242,7 +242,7 @@ F 4 "LTST-C190KRKT" H 3550 1530 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D11
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D11
 U 1 1 5E8B273B
 P 4040 1390
 F 0 "D11" H 4040 1625 50  0000 C CNN
@@ -254,7 +254,7 @@ F 4 "LTST-C190KRKT" H 4070 1280 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D10
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D10
 U 1 1 5E8B2DC2
 P 4310 1390
 F 0 "D10" H 4310 1625 50  0000 C CNN
@@ -266,7 +266,7 @@ F 4 "LTST-C190KRKT" H 4310 1390 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D7
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D7
 U 1 1 5E8B5CB2
 P 4290 920
 F 0 "D7" H 4290 1155 50  0000 C CNN
@@ -278,7 +278,7 @@ F 4 "LTST-C190KRKT" H 4430 790 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D6
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D6
 U 1 1 5E8B5CA8
 P 4050 920
 F 0 "D6" H 4050 1155 50  0000 C CNN
@@ -290,7 +290,7 @@ F 4 "LTST-C190KRKT" H 4080 1040 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D4
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D4
 U 1 1 5E8B5C9E
 P 3550 920
 F 0 "D4" H 3550 1155 50  0000 C CNN
@@ -302,7 +302,7 @@ F 4 "LTST-C190KRKT" H 3550 840 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D3
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D3
 U 1 1 5E8B5C94
 P 3280 920
 F 0 "D3" H 3280 1155 50  0000 C CNN
@@ -314,7 +314,7 @@ F 4 "LTST-C190KRKT" H 3320 1040 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D1
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D1
 U 1 1 5E8B5C8A
 P 2790 920
 F 0 "D1" H 2790 1155 50  0000 C CNN
@@ -336,7 +336,7 @@ SCL
 Text GLabel 5430 2250 2    50   Input ~ 0
 SDA
 $Comp
-L Kicad-LED-Rings-rescue:Conn_01x03_Female-Connector J1
+L Kicad-LED-Rings-rescue:Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue J1
 U 1 1 5E8C7898
 P 3530 3720
 F 0 "J1" H 3558 3696 50  0000 L CNN
@@ -347,7 +347,7 @@ F 3 "~" H 3530 3720 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:Conn_01x02_Male-Connector J2
+L Kicad-LED-Rings-rescue:Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue J2
 U 1 1 5E8C7DAA
 P 5200 3680
 F 0 "J2" H 5308 3861 50  0000 C CNN
@@ -358,7 +358,7 @@ F 3 "~" H 5200 3680 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:GND-power #PWR0101
+L Kicad-LED-Rings-rescue:GND-power-Kicad-LED-Rings-rescue #PWR0101
 U 1 1 5E8C8610
 P 3330 3620
 F 0 "#PWR0101" H 3330 3370 50  0001 C CNN
@@ -369,7 +369,7 @@ F 3 "" H 3330 3620 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:+5V-power #PWR0102
+L Kicad-LED-Rings-rescue:+5V-power-Kicad-LED-Rings-rescue #PWR0102
 U 1 1 5E8C8FD0
 P 3210 3720
 F 0 "#PWR0102" H 3210 3570 50  0001 C CNN
@@ -392,7 +392,7 @@ Wire Wire Line
 Wire Wire Line
 	5790 3070 6130 3070
 $Comp
-L Kicad-LED-Rings-rescue:+2V8-power #PWR011
+L Kicad-LED-Rings-rescue:+2V8-power-Kicad-LED-Rings-rescue #PWR011
 U 1 1 5E9546A9
 P 1320 2350
 F 0 "#PWR011" H 1320 2200 50  0001 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 1320 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:R_Small-Device R4
+L Kicad-LED-Rings-rescue:R_Small-Device-Kicad-LED-Rings-rescue R4
 U 1 1 5E95957D
 P 7040 4090
 F 0 "R4" H 6840 4070 50  0000 L CNN
@@ -423,7 +423,7 @@ Wire Wire Line
 Wire Wire Line
 	7040 3820 7040 3990
 $Comp
-L Kicad-LED-Rings-rescue:+2V8-power #PWR012
+L Kicad-LED-Rings-rescue:+2V8-power-Kicad-LED-Rings-rescue #PWR012
 U 1 1 5E95FB55
 P 6870 3820
 F 0 "#PWR012" H 6870 3670 50  0001 C CNN
@@ -434,7 +434,7 @@ F 3 "" H 6870 3820 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:+2V8-power #PWR0103
+L Kicad-LED-Rings-rescue:+2V8-power-Kicad-LED-Rings-rescue #PWR0103
 U 1 1 5EA52B66
 P 3210 3820
 F 0 "#PWR0103" H 3210 3670 50  0001 C CNN
@@ -457,7 +457,7 @@ Connection ~ 6870 3820
 Wire Wire Line
 	6870 3820 7040 3820
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D2
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D2
 U 1 1 5F10EE3C
 P 3030 920
 F 0 "D2" H 3030 1155 50  0000 C CNN
@@ -469,7 +469,7 @@ F 4 "LTST-C190KRKT" H 3040 840 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D5
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D5
 U 1 1 5F10F69F
 P 3790 920
 F 0 "D5" H 3790 1155 50  0000 C CNN
@@ -481,7 +481,7 @@ F 4 "LTST-C190KRKT" H 3830 1040 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D8
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D8
 U 1 1 5F110CD4
 P 4540 920
 F 0 "D8" H 4540 1155 50  0000 C CNN
@@ -493,7 +493,7 @@ F 4 "LTST-C190KRKT" H 4680 790 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D15
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D15
 U 1 1 5F1112DB
 P 3030 1390
 F 0 "D15" H 3030 1625 50  0000 C CNN
@@ -505,7 +505,7 @@ F 4 "LTST-C190KRKT" H 3040 1280 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D12
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D12
 U 1 1 5F1120C3
 P 3790 1390
 F 0 "D12" H 3790 1625 50  0000 C CNN
@@ -517,7 +517,7 @@ F 4 "LTST-C190KRKT" H 3790 1530 50  0001 C CNN "PartNo."
 	1    0    0    -1  
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:LED_Small_ALT-Device D9
+L Kicad-LED-Rings-rescue:LED_Small_ALT-Device-Kicad-LED-Rings-rescue D9
 U 1 1 5F11304A
 P 4550 1390
 F 0 "D9" H 4550 1625 50  0000 C CNN
@@ -564,7 +564,7 @@ Connection ~ 5450 2650
 Wire Wire Line
 	5450 2650 5450 2550
 $Comp
-L Kicad-LED-Rings-rescue:LM3509SD_NOPB-2020-04-05_20-57-04 U1
+L Kicad-LED-Rings-rescue:LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue U1
 U 1 1 5E8A688C
 P 2030 2050
 F 0 "U1" H 3730 2437 60  0000 C CNN

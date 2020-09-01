@@ -1,0 +1,5 @@
+07-30 21:42:29 swap_units.action_swap_units 87:Plugin executed on: 'win32'
+07-30 21:42:29 swap_units.action_swap_units 88:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+07-30 21:42:29 swap_units.action_swap_units 89:KiCad build version: (5.1.6)-1
+07-30 21:42:29 swap_units.action_swap_units 90:Swap units plugin version: 37 started
+07-30 21:42:36 swap_units.action_swap_units 121:Action plugin canceled. More or less than 2 pads selected.
