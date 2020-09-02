@@ -73,7 +73,7 @@ F 4 "ERA-2AEB302X" H 6680 4090 50  0001 C CNN "PartNo."
 	-1   0    0    1   
 $EndComp
 $Comp
-L Kicad-LED-Rings-rescue:NRS4012T100MDGJ-2020-07-30_23-38-29 L1
+L LED_Ring-rescue:NRS4012T100MDGJ-2020-07-30_23-38-29 L1
 U 1 1 5E8B36F1
 P 5450 2650
 F 0 "L1" H 5650 2600 50  0000 C CNN
@@ -201,8 +201,6 @@ F 4 "BAT760,115" H 5690 3070 50  0001 C CNN "PartNo."
 	1    5690 3070
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5450 3070 5450 2650
 Text GLabel 6130 3070 2    50   Input ~ 0
 OVP
 $Comp
@@ -560,9 +558,6 @@ Wire Wire Line
 	4410 1390 4450 1390
 Wire Wire Line
 	4650 1390 4720 1390
-Connection ~ 5450 2650
-Wire Wire Line
-	5450 2650 5450 2550
 $Comp
 L Kicad-LED-Rings-rescue:LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue U1
 U 1 1 5E8A688C
@@ -583,4 +578,6 @@ Wire Wire Line
 	2030 2050 2030 920 
 Wire Wire Line
 	2030 920  2690 920 
+Wire Wire Line
+	5450 2550 5450 3070
 $EndSCHEMATC

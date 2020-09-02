@@ -1,0 +1,228 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Kicad-LED-Rings-rescue_+2V8-power-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_+2V8-power-Kicad-LED-Rings-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Kicad-LED-Rings-rescue_+2V8-power-Kicad-LED-Rings-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +2V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_+5V-power-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_+5V-power-Kicad-LED-Rings-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Kicad-LED-Rings-rescue_+5V-power-Kicad-LED-Rings-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_BAT760,115-BAT760_115-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_BAT760,115-BAT760_115-Kicad-LED-Rings-rescue D 0 40 N N 1 L N
+F0 "D" -90 75 50 H V L BNN
+F1 "Kicad-LED-Rings-rescue_BAT760,115-BAT760_115-Kicad-LED-Rings-rescue" -90 -136 50 H V L BNN
+F2 "SOD323(F)" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 0 10 -50 -50 50 0 N
+P 2 0 0 10 -50 50 -50 -50 N
+P 2 0 0 10 25 -40 25 -50 N
+P 2 0 0 10 50 -50 25 -50 N
+P 2 0 0 10 50 0 -50 50 N
+P 2 0 0 10 50 0 50 -50 N
+P 2 0 0 10 50 50 50 0 N
+P 2 0 0 10 75 50 50 50 N
+P 2 0 0 10 75 50 75 40 N
+X K 1 100 0 100 L 40 40 0 0 P
+X A 2 -100 0 100 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Kicad-LED-Rings-rescue_Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Kicad-LED-Rings-rescue_Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+A 0 -100 20 901 -901 1 1 6 N 0 -80 0 -120
+A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
+A 0 100 20 901 -901 1 1 6 N 0 120 0 80
+P 2 1 1 6 -50 -100 -20 -100 N
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 -50 100 -20 100 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_GND-power-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_GND-power-Kicad-LED-Rings-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Kicad-LED-Rings-rescue_GND-power-Kicad-LED-Rings-rescue" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Kicad-LED-Rings-rescue_GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue" -390 170 50 H I L CNN
+F2 ".Capacitor:C_0201_0603Metric_L" 110 270 50 H I C CNN
+F3 "" 10 70 50 H I C CNN
+F4 "1uF" 110 -80 50 H V C CNN "Note"
+F5 "0201" 110 -180 50 H I C CNN "Size"
+$FPLIST
+ C_0201*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_LED_Small_ALT-Device-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_LED_Small_ALT-Device-Kicad-LED-Rings-rescue D 0 10 N N 1 F N
+F0 "D" -50 125 50 H V L CNN
+F1 "Kicad-LED-Rings-rescue_LED_Small_ALT-Device-Kicad-LED-Rings-rescue" -175 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue U 0 10 Y Y 1 L N
+F0 "U" 1700 400 60 H V C CNN
+F1 "Kicad-LED-Rings-rescue_LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue" 1700 300 60 H V C CNN
+F2 "SDA10A" 1700 240 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SDA10A
+ SDA10A-M
+ SDA10A-L
+$ENDFPLIST
+DRAW
+P 2 1 1 5 300 -700 3100 -700 N
+P 2 1 1 5 300 200 300 -700 N
+P 2 1 1 5 3100 -700 3100 200 N
+P 2 1 1 5 3100 200 300 200 N
+X MAIN 1 0 0 300 R 59 59 1 1 I
+X SCL 10 3400 -100 300 L 59 59 1 1 I
+X DAP_GND 11 3400 0 300 L 59 59 1 1 W
+X SUB/FB 2 0 -100 300 R 59 59 1 1 I
+X SET 3 0 -200 300 R 59 59 1 1 I
+X VIO 4 0 -300 300 R 59 59 1 1 I
+X ~RESET~/GPIO 5 0 -400 300 R 59 59 1 1 B
+X SW 6 3400 -500 300 L 59 59 1 1 W
+X OVP 7 3400 -400 300 L 59 59 1 1 I
+X IN 8 3400 -300 300 L 59 59 1 1 I
+X SDA 9 3400 -200 300 L 59 59 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Kicad-LED-Rings-rescue_R_Small-Device-Kicad-LED-Rings-rescue
+#
+DEF Kicad-LED-Rings-rescue_R_Small-Device-Kicad-LED-Rings-rescue R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Kicad-LED-Rings-rescue_R_Small-Device-Kicad-LED-Rings-rescue" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Ring-rescue_NRS4012T100MDGJ-2020-07-30_23-38-29
+#
+DEF LED_Ring-rescue_NRS4012T100MDGJ-2020-07-30_23-38-29 L 0 65 N N 1 L N
+F0 "L" 275 200 60 H V C CNN
+F1 "LED_Ring-rescue_NRS4012T100MDGJ-2020-07-30_23-38-29" 275 -225 60 H V C CNN
+F2 "IND_TAIYO_NRS4012_TAY" 275 -285 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ IND_TAIYO_NRS4012_TAY
+$ENDFPLIST
+DRAW
+A 150 50 50 0 1800 1 1 10 N 100 50 200 50
+A 250 50 50 0 1800 1 1 10 N 200 50 300 50
+A 350 50 50 0 1800 1 1 10 N 300 50 400 50
+A 450 50 50 0 1800 1 1 10 N 400 50 500 50
+P 2 1 1 8 100 0 100 50 N
+P 2 1 1 8 200 0 200 50 N
+P 2 1 1 8 300 0 300 50 N
+P 2 1 1 8 400 0 400 50 N
+P 2 1 1 8 500 0 500 50 N
+X 1 1 600 0 100 L 59 59 1 1 U
+X 2 2 0 0 100 R 59 59 1 1 U
+ENDDRAW
+ENDDEF
+#
+#End Library

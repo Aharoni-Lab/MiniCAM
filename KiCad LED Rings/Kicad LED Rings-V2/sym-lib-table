@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Kicad-LED-Rings-rescue)(type Legacy)(uri "${KIPRJMOD}/Kicad LED Rings-rescue.lib")(options "")(descr ""))
+  (lib (name LED_Ring-rescue)(type Legacy)(uri ${KIPRJMOD}/LED_Ring-rescue.lib)(options "")(descr ""))
 )
