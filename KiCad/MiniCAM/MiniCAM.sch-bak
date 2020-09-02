@@ -7,7 +7,7 @@ Sheet 1 1
 Title ""
 Date "2020-07-21"
 Rev "v0.1"
-Comp ""
+Comp "Aharoni Lab"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -204,18 +204,6 @@ F 3 "~" V 3750 1850 50  0001 C CNN
 F 4 "LTST-C190KRKT" H 3750 1850 50  0001 C CNN "Part Number"
 	1    3750 1850
 	0    -1   -1   0   
-$EndComp
-$Comp
-L .Device:R_Small_US R2
-U 1 1 5F138425
-P 3750 1475
-F 0 "R2" H 3818 1521 50  0000 L CNN
-F 1 "500" H 3818 1430 50  0000 L CNN
-F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 3750 1475 50  0001 C CNN
-F 3 "~" H 3750 1475 50  0001 C CNN
-F 4 "ERJ-2RKF4990X" H 3750 1475 50  0001 C CNN "Part Number"
-	1    3750 1475
-	1    0    0    -1  
 $EndComp
 $Comp
 L .Device:C_Small C34
@@ -1971,6 +1959,18 @@ F 1 "+1V8" H 2265 6398 50  0000 C CNN
 F 2 "" H 2250 6225 50  0001 C CNN
 F 3 "" H 2250 6225 50  0001 C CNN
 	1    2250 6225
+	1    0    0    -1  
+$EndComp
+$Comp
+L .Device:R_Small_US R2
+U 1 1 5F138425
+P 3750 1475
+F 0 "R2" H 3818 1521 50  0000 L CNN
+F 1 "2K" H 3818 1430 50  0000 L CNN
+F 2 ".Resistor:R_0402_1005Metric_ERJ_L" H 3750 1475 50  0001 C CNN
+F 3 "~" H 3750 1475 50  0001 C CNN
+F 4 "ERJ-2RKF2001X" H 3750 1475 50  0001 C CNN "Part Number"
+	1    3750 1475
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
