@@ -1,0 +1,27 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,PartNo.
+1,,GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue,C1,1uF,C_0603_1608Metric_L,1,~,GRT188R61C105KE13D
+2,,GRM033R60J105MEA2D-.Capacitor-Kicad-LED-Rings-rescue-Kicad-LED-Rings-rescue,C2,2.2uF,C_0805_2012Metric_L,1,https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1E225M125AC/445-7630-2-ND/2733065,C2012X5R1E225M125AC
+3,,"BAT760,115-BAT760_115-Kicad-LED-Rings-rescue",D17,D_Schottky,SOD323(F),1,https://www.digikey.com/product-detail/en/nexperia-usa-inc/BAT760115/1727-4825-1-ND/2531312,"BAT760,115"
+4,,LED_Small_ALT-Device-Kicad-LED-Rings-rescue,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16,LED_Small_ALT,LED_0603_1608Metric,16,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C190KRKT/160-1436-1-ND/386816,LTST-C190KRKT
+5,,Conn_01x03_Female-Connector-Kicad-LED-Rings-rescue,J1,Conn_01x02_Female,PinHeader_1x03_P1.27mm_Vertical,1,~,
+6,,Conn_01x02_Male-Connector-Kicad-LED-Rings-rescue,J2,Conn_01x02_Male,PinHeader_1x02_P1.27mm_Vertical,1,~,
+7,,NRS4012T100MDGJ-2020-07-30_23-38-29,L1,10uH,NR3015T1R5N,1,https://www.digikey.com/product-detail/en/taiyo-yuden/NRS4012T100MDGJ/587-2878-1-ND/2648998,NRS4012T100MDGJ
+8,,R_Small-Device-Kicad-LED-Rings-rescue,R1 R4,3K,R_0402_1005Metric_ERJ_L,2,https://www.digikey.in/product-detail/en/panasonic-electronic-components/ERA-2AEB302X/P3-0KDCTR-ND/1706016,ERA-2AEB302X
+9,,R_Small-Device-Kicad-LED-Rings-rescue,R2 R3,9.5k,R_0402_1005Metric_ERJ_L,2,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-2AEB123X/P12KDCCT-ND/1706209,ERA-2AEB9531X
+10,,LM3509SD_NOPB-2020-04-05_20-57-04-Kicad-LED-Rings-rescue,U1,LM3509SD_NOPB,LM3509SDNOPB,1,,LM3509SD_NOPB
+
+
+
+
+
+Component Groups:,10
+Component Count:,27
+Fitted Components:,27
+Number of PCBs:,1
+Total components:,27
+Schematic Version:,v1.0
+Schematic Date:,2020-09-08
+PCB Variant:,[u'default']
+BoM Date:,9/8/2020 11:45:49 AM
+Schematic Source:,LED_Ring.sch
+KiCad Version:,Eeschema (5.1.6)-1
