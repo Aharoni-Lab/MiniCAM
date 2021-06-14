@@ -16,3 +16,5 @@ The MiniCAM is an open-source behaviroal camera for imaging freely behaving anim
 <p align="center">
   <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_layout.PNG">
 </p>
+
+The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected over a 50ohm coaxial cable) and a host computer (connected over USB3) running the [Miniscope Software](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-Software) (or other third-party application that can stream UVC cameras and can communicate through a Miniscope DAQ). You can use any generation of Miniscope DAQ but you must update it with [the newest firmware](https://github.com/Aharoni-Lab/Miniscope-DAQ-Cypress-firmware). You can also use the cheaper and smaller version of the Miniscope DAQ called the MiniDAQ (open-source link coming soon). Once updated to the newest firmware, any Miniscope DAQ device will work with all Miniscope and MiniCAM devices. 
