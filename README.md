@@ -1,5 +1,7 @@
 # MiniCAM
-The MiniCAM is an open-source behaviroal camera for imaging freely behaving animals in behavioral and neuroscience experiments. 
+The MiniCAM is an open-source behaviroal camera for imaging freely behaving animals in behavioral and neuroscience experiments. The goal of the MiniCAM project is to provide an open-source, customizable, high-quality, and affordable alternative to using webcams or scientific USB cameras for behavioral imaging. The MiniCAM is powered and communicates over any commercial 50ohm coaxial cable minimizing the cabling that needs to run into the experimental environment. The coaxial cable connects the MiniDAQ to any version of UCLA Miniscope DAQs or MiniDAQs which then connects over USB3 to a host computer.
+
+Using the [Miniscope Software](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-Software), multiple Miniscopes and MiniCAMs can be connected, streamed, and time-sync'ed recording simultaniously.
 
 <p align="center">
   <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_assembled.png">
