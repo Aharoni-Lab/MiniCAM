@@ -8,6 +8,7 @@ Using the [Miniscope Software](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-S
 </p>
 
 ## MiniCAM Components
+The MiniCAM consists of a custom printed circuit board (PCB), a 3D printed housing, an off the shelf M12 lens mount, an M12 camera lens, and an optional LED illumination ring. The PCB contains a 5MP CMOS image sensor, support electronics to power and serialize the imaging data, and an SMA coax connector. The image sensor can be configured through the Miniscope software and the optional LED illumination ring intensity can also be controlled through software.
 
 <p align="center">
   <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_exploded.PNG">
