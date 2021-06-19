@@ -4,11 +4,11 @@ The MiniCAM is an open-source behaviroal camera for imaging freely behaving anim
 Using the [Miniscope Software](https://github.com/Aharoni-Lab/Miniscope-DAQ-QT-Software), multiple Miniscopes and MiniCAMs can be connected, streamed, and time-sync'ed recording simultaniously.
 
 <p align="center">
-  <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_assembled.png">
+  <img width="500" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_assembled.png">
 </p>
 
 ## MiniCAM Components
-The MiniCAM consists of a custom printed circuit board (PCB), a 3D printed housing, an off the shelf M12 lens mount, an M12 camera lens, and an optional LED illumination ring. The PCB contains a 5MP CMOS image sensor, support electronics to power and serialize the imaging data, and an SMA coax connector. The image sensor can be configured through the Miniscope software and the optional LED illumination ring intensity can also be controlled through software.
+The MiniCAM consists of a custom printed circuit board (PCB), a 3D printed housing, an off the shelf M12 lens mount, a M12 camera lens, and an optional LED illumination ring. The PCB contains a 5MP CMOS image sensor, support electronics to power and serialize the imaging data, and an SMA coax connector. The image sensor can be configured through the Miniscope software and the optional LED illumination ring intensity can also be controlled through software. The MiniCAM runs at 50fps with 1024X768 resolution as the defulat configuration.
 
 <p align="center">
   <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_exploded.PNG">
