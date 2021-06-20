@@ -29,6 +29,7 @@ Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communic
 * Part Number: CW8251
 * Description: Coax cable. 36AWG 26/50SPC TRANSCUCENT PFA TO .016" NOM. O.D. 44AWG SPC SHIELD WITH .010" WHITE SILICONE RUBBER JACKET TO .045" NOM O.D.
 * Male SMA Connector required (solded at the ends of the cable)
+
 **Option 2**
 * Digi-Key Part Number: J4148-ND(1.2m), J3312-ND(304.80mm), J10291-ND(3.0m), ARF2963-ND(4.6m) 
 * Manufacturer Product Number: 415-0033-048(1.2m), 415-0025-012(304.80mm), 415-0029-M3.0(3.0m), 135101-02-180(4.6m) 
