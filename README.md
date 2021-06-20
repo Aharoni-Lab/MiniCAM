@@ -25,8 +25,12 @@ The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected ov
 Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communication, and data. Any 50Ohm coax cable should work with the system. A 1mm diameter coax cable can likely function at lengths over 15 feet.
 
 ### M12 lenses
+M12 lenses and M12 Mount Lens Holders are avaiable in Amazon
 
-**Coaxial Cables**
+**Option 1**
+* Brand: Arducam
+* Description: M12 Lens Set, Arducam Lens for Raspberry Pi Camera (1/4") and Arduino, Telephoto, Macro, Wide Angle, Fisheye Lens Kit (10°- 200°) with M12 Lens Holder and Cleaning Cloth, Optical All-in-One; Arducam M12 Mount Lens Holder Set
+### Coaxial Cables
 
 **Option 1**
 * Vendor: Cooner Wire (can be purchased at other places too)
