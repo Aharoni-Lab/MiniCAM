@@ -21,8 +21,12 @@ The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected ov
   <img width="600" src="https://github.com/Aharoni-Lab/MiniCAM/blob/master/img/MiniCAM_layout.PNG">
 </p>
 
-## M12 lenses and Coaxial cables
+## M12 lenses and Coaxial Cables
 Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communication, and data. Any 50Ohm coax cable should work with the system. A 1mm diameter coax cable can likely function at lengths over 15 feet.
+
+**M12 lenses**
+
+**Coaxial Cables**
 
 **Option 1**
 * Vendor: Cooner Wire (can be purchased at other places too)
