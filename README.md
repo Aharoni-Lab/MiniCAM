@@ -25,7 +25,7 @@ The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected ov
 Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communication, and data. Any 50Ohm coax cable should work with the system. A 1mm diameter coax cable can likely function at lengths over 15 feet.
 
 ### M12 lenses
-M12 lenses and M12 Mount Lens Holders are avaiable in Amazon
+M12 lenses and M12 Mount Lens Holders are avaiable in Amazon.
 
 **Option 1**
 * Brand: Arducam
