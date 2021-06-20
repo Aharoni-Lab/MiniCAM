@@ -23,6 +23,13 @@ The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected ov
 
 ## M12 lenses and Coaxial cables
 Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communication, and data. Any 50Ohm coax cable should work with the system. A 1mm diameter coax cable can likely function at lengths over 15 feet. 
+
 * Vendor: Cooner Wire (can be purchased at other places too)
 * Part Number: CW8251
 * Description: Coax cable. 36AWG 26/50SPC TRANSCUCENT PFA TO .016" NOM. O.D. 44AWG SPC SHIELD WITH .010" WHITE SILICONE RUBBER JACKET TO .045" NOM O.D.
+
+* Digi-Key Part Number: J10291-ND
+* Manufacturer:Cinch Connectivity Solutions Johnson
+* Manufacturer Product Number: 415-0029-M3.0
+* Supplier: Cinch Connectivity Solutions Johnson
+* Description: Cable Assembly Coaxial SMA to SMA RG-316 118.1" (3.0m) 9.8'
