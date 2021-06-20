@@ -30,6 +30,7 @@ M12 lenses and M12 Mount Lens Holders are avaiable in Amazon
 **Option 1**
 * Brand: Arducam
 * Description: M12 Lens Set, Arducam Lens for Raspberry Pi Camera (1/4") and Arduino, Telephoto, Macro, Wide Angle, Fisheye Lens Kit (10°- 200°) with M12 Lens Holder and Cleaning Cloth, Optical All-in-One; Arducam M12 Mount Lens Holder Set
+* Manually remove the IR filter at the bottom of the lenses when using them with a NoIR camera
 ### Coaxial Cables
 
 **Option 1**
