@@ -25,21 +25,8 @@ The MiniCAM requires a UCLA Miniscope Data Acquisition (DAQ) board (connected ov
 Just like Miniscopes, the MiniCAM uses a 50Ohm coaxial cable for power, communication, and data. Any 50Ohm coax cable should work with the system. A 1mm diameter coax cable can likely function at lengths over 15 feet.
 
 ### M12 lenses
-M12 lenses and M12 Mount Lens Holders are avaiable in Amazon (can be purchased at other places too).
+M12 lenses and M12 Mount Lens Holders are avaiable in Amazon (can be purchased at other places too). It can be handy to buy a M12 Lens Kit that comes with a range of M12 lenses for different view angles. We have been happy with the Arducam lens set which can be found on Amazon. If you are using the optional LED illumination ring or other nIR light source make sure to remove any IR filter located in the lens if applicable.
 
-**Option 1**
-* Brand: Arducam (can be purchased at other places too)
-* Description: M12 Lens Set, Arducam Lens for Raspberry Pi Camera (1/4") and Arduino, Telephoto, Macro, Wide Angle, Fisheye Lens Kit (10°- 200°) with M12 Lens Holder and Cleaning Cloth, Optical All-in-One; Arducam M12 Mount Lens Holder Set
-* Manually remove the IR filter at the bottom of the lenses when using them with a NoIR camera
 ### Coaxial Cables
+Any 50Ohm coaxial cable should be compatible with this system. The thicker the cable the longer length you can run (maxing out at around 10 to 15 meters). It generally is most convinient to get a coax cable with male SMA connectors on both ends to connect between the MiniCAM and MiniDAQ (or standard Miniscope DAQ).
 
-**Option 1**
-* Vendor: Cooner Wire (can be purchased at other places too)
-* Part Number: CW8251
-* Description: Coax cable. 36AWG 26/50SPC TRANSCUCENT PFA TO .016" NOM. O.D. 44AWG SPC SHIELD WITH .010" WHITE SILICONE RUBBER JACKET TO .045" NOM O.D.
-* 2 Male SMA Connectors required (solded at the ends of the cable)
-
-**Option 2**
-* Digi-Key Part Number: J4148-ND(1.2m), J10291-ND(3.0m), J3312-ND(304.80mm), ARF2963-ND(4.6m) 
-* Manufacturer Product Number: 415-0033-048(1.2m), 415-0029-M3.0(3.0m), 415-0025-012(304.80mm), 135101-02-180(4.6m) 
-* Description: Cable Assembly Coaxial SMA to SMA
